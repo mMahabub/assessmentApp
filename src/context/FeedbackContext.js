@@ -7,21 +7,7 @@ const FeedbackContext = createContext()
 export const FeedbackProvider = ({ children }) =>{
     const [isLoading, setIsLoading] = useState(true)
     const [feedback, setFeedback] = useState([
-    //   {
-    //     id: 1,
-    //     text: 'This is feedback 1',
-    //     rating: 5,
-    //     },
-    //     {
-    //         id: 2,
-    //         text: 'This is feedback 2',
-    //         rating: 6,
-    //         },
-    //         {
-    //             id: 3,
-    //             text: 'This is feedback 3',
-    //             rating: 8,
-    //             },
+   
       
     ])
 
